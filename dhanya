@@ -1,0 +1,19 @@
+pipeline{
+    agents{
+       stages{
+          stage("compiling")
+          }
+       steps{
+          echo"i am compiling"
+          }
+         }
+         stages{
+         stage("validate")
+          }
+         steps{
+            echo"i am validating"
+            }
+            }
+       }
+}
+         

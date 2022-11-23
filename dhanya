@@ -1,8 +1,8 @@
 pipeline{
-    agents any{
+    agents any
        stages{
           stage("compiling")
-          }
+          
        steps{
           echo"i am compiling"
           }
